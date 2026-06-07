@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechFest 2026 Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2>TechFest 2026</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="darkBtn">🌙 Dark Mode</button>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+    <h1>Annual College TechFest 2026</h1>
+    <p>Hackathons • Workshops • AI Seminars • Coding Contests</p>
+
+    <button class="hero-btn">Register Now</button>
+
+    <div class="countdown">
+        <h3>Event Starts In</h3>
+        <p id="timer"></p>
+    </div>
+</section>
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>1000+</h2>
+        <p>Participants</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>25+</h2>
+        <p>Events</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>₹1,00,000</h2>
+        <p>Prize Pool</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>15+</h2>
+        <p>Sponsors</p>
+    </div>
+
+</section>
+
+<section class="events" id="events">
+
+    <h2>Upcoming Events</h2>
+
+    <div class="event-grid">
+
+        <article class="card">
+            <h3>Hackathon</h3>
+            <p>24 Hour Coding Competition</p>
+        </article>
+
+        <article class="card">
+            <h3>Web Development Workshop</h3>
+            <p>Frontend & Backend Workshop</p>
+        </article>
+
+        <article class="card">
+            <h3>AI Seminar</h3>
+            <p>Future of Artificial Intelligence</p>
+        </article>
+
+        <article class="card">
+            <h3>Startup Pitch</h3>
+            <p>Present Your Startup Idea</p>
+        </article>
+
+        <article class="card">
+            <h3>Cyber Security</h3>
+            <p>Learn Ethical Hacking Basics</p>
+        </article>
+
+        <article class="card">
+            <h3>Coding Contest</h3>
+            <p>Test Your Problem Solving Skills</p>
+        </article>
+
+    </div>
+
+</section>
+
+<section class="schedule">
+
+    <h2>Event Schedule</h2>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+
+        <tr>
+            <td>09:00 AM</td>
+            <td>Opening Ceremony</td>
+        </tr>
+
+        <tr>
+            <td>10:00 AM</td>
+            <td>Hackathon</td>
+        </tr>
+
+        <tr>
+            <td>01:00 PM</td>
+            <td>AI Seminar</td>
+        </tr>
+
+        <tr>
+            <td>03:00 PM</td>
+            <td>Startup Pitch</td>
+        </tr>
+    </table>
+
+</section>
+
+<section class="info-section">
+
+    <article class="info-card">
+        <h3>Venue</h3>
+        <p>Main Auditorium</p>
+    </article>
+
+    <article class="info-card">
+        <h3>Participants</h3>
+        <p>1000+ Students</p>
+    </article>
+
+    <article class="info-card">
+        <h3>Prize Pool</h3>
+        <p>₹1,00,000</p>
+    </article>
+
+</section>
+
+<section class="registration" id="register">
+
+    <h2>Register For Event</h2>
+
+    <form id="registrationForm">
+
+        <input type="text" id="name" placeholder="Full Name">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="text" id="branch" placeholder="Branch">
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</section>
+
+<section class="organizer">
+
+    <h2>Organizer Details</h2>
+
+    <div class="organizer-card">
+        <h3>Vikash Dhakad</h3>
+        <p>B.Tech Mathematics & Computing</p>
+        <p>Event Coordinator</p>
+    </div>
+
+</section>
+
+</main>
+
+<footer id="contact">
+    <p>© 2026 TechFest Event Dashboard</p>
+    <p>Created by Vikash Dhakad</p>
+    <p>GitHub: github.com/yourusername</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
