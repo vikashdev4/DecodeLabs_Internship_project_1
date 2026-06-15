@@ -25,7 +25,7 @@ A modern and responsive event management dashboard built using **HTML, CSS, and 
 
 ## 🌐 Live Demo
 
-https://vikashdev4.github.io/DecodeLabs-Internship_project_1/
+https://vikashdev4.github.io/DecodeLabs_Internship_project_1/
 
 ## 📂 Project Structure
 
